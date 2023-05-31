@@ -206,7 +206,7 @@ def parse_arguments():
          "help": "Model to use for translation, e.g., 'gpt-3.5-turbo' or 'gpt-4'"}),
         ("--num_threads", {"type": int, "default": 10,
          "help": "number of threads to use for translation"}),
-        ("--target_language", {"type": str, "default": "Simplified Chinese",
+        ("--target_language", {"type": str, "default": "Indonesian",
          "help": "target language to translate to"}),
         ("--only_process_this_file_extension",
          {"type": str, "default": "", "help": "only process files with this extension"}),
